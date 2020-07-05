@@ -1,0 +1,1257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Clarisonic</title>
+<link rel="shortcut icon" href="https://www.clarisonic.com/on/demandware.static/Sites-Clarisonic-US-Site/-/default/dwbd20a15e/images/favicon.ico" />
+<!--[if !mso]><!-->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+<!--<![endif]-->
+<style type="text/css">
+  *, body, div, p, a, li, table, td, table td {
+    -webkit-text-size-adjust: none !important;
+    -moz-text-size-adjust: none !important;
+    -o-text-size-adjust: none !important;
+    -ms-text-size-adjust: none !important;
+  }
+/* PREVENTS BLUE BORDER ON LINKED IMAGES, WRAPPED IN HTML COMMENT TO PREVENT LOTUS NOTES FROM NOT USING THIS STYLE*/ 
+  <!--   img, img a {     border-style: none !important;     border: none !important;   }   a {     color: inherit;     text-decoration: none;   }   -->
+/* GENERAL STYLING */
+  body, table, td, table td, img {
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .buttonOrange:hover{
+    background-color: #F68B21 !important;
+    border-color: #F68B21 !important;
+  }
+/* YAHOO STRIPS THE INLINE STYLING OF THE BODY TAG, SO THIS IS A FALLBACK */
+  body {
+    background: #ffffff;
+  }
+/*ALLOWS TEXT WRAPPING, CONTROLS LINE HEIGHT, AND PREVENTS ADDED BORDERS IN OUTLOOK */
+  body, table, td, table td {
+    mso-line-height-rule: exactly;
+    mso-table-lspace: 0;
+    mso-table-rspace: 0;
+    border-collapse: collapse;
+  }
+/* OUTLOOK.COM FIXES. OUTLOOK.COM AUTOMATICALLY ADDS A CLASS OF "ExternalClass" TO YOUR BODY TAG, WHICH IS WHY THESE WORK */
+/*RESETS OUTLOOK.COM LINE HEIGHT TO 100% INSTEAD OF ITS DEFAULT OF 131% */
+  .ExternalClass * {
+    line-height: 100%;
+    width: 100%;
+  }
+/* PREVENTS GREEN DEFAULT COLOR */
+  h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited, h4, h5, h6, .t_cht, p {
+    color: inherit !important;
+  }
+/* ADD THIS CLASS TO ADDRESSES, PHONE NUMBERS, AND DATES TO PREVENT AUTO BLUE LINKING IN CLIENTS LIKE GMAIL AND IOS */
+  .blueLinkFix {
+    color: #666666 !important;
+  }
+/* What it does: A work-around for email clients meddling in triggered links. */
+  *[x-apple-data-detectors],  /* iOS */ .x-gmail-data-detectors,  /* Gmail */ .x-gmail-data-detectors *, .aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+  .blueFix span {
+    border: none !important;
+    color: inherit !important;
+  }
+  @media only screen and (max-device-width: 480px), screen and (max-width: 480px) {
+/*------------MOBILE HIDE AND SHOW---------------*/
+    .nowrap {
+      white-space: nowrap !important;
+    }
+    .wrap, .stack {
+      display: block !important;
+    }
+    .mobileHide {
+      display: none !important;
+      height: 0px !important;
+      width: 0px !important;
+      max-height: 0px !important;
+      max-width: 0px !important;
+      font-size: 0px !important;
+      line-height: 0px !important;
+      overflow: hidden !important;
+    }
+    .mobileShow {
+      display: block !important;
+      height: auto !important;
+      width: auto !important;
+      max-height: inherit !important;
+      max-width: inherit !important;
+      font-size: 10px !important;
+      line-height: 10px !important;
+      overflow: visible !important;
+      border: none !important;
+      visibility: visible !important;
+    }
+    .mobileShowImg {
+      display: block !important;
+      max-height: none !important;
+    }
+    .mobileShowText {
+      display: block !important;
+      height: auto !important;
+      width: auto !important;
+      max-height: inherit !important;
+      max-width: inherit !important;
+      overflow : visible !important;
+      border: none !important;
+      visibility: visible !important;
+      padding: 20px 0 25px !important;
+      font-family: 'Lato',Arial,Helvetica,sans-serif !important;
+      font-weight: 300 !important;
+      font-size: 16px !important;
+      line-height: 20px !important;
+      color: #4b4d50 !important;
+      text-align: center !important;
+    }
+    .photo {
+      width: 100% !important;
+      height: auto !important;
+    }
+    .buttonbottom {
+      padding-top: 5px !important;
+      padding-bottom: 40px !important;
+    }
+    .button {
+      font-size: 18px !important;
+      width: 210px !important;
+      line-height: 50px !important;
+    }
+    .btnLg {
+      padding-top: 30px !important;
+      padding-bottom: 30px !important;
+    }
+    .buttonwidth {
+      font-size: 18px !important;
+      font-weight: normal !important;
+      width: 210px !important;
+      line-height: 50px !important;
+    }
+    .social {
+      width: 100% !important;
+      height: auto !important;
+      max-width: 73px !important;
+    }
+    /*-------------ALIGNMENT-------------------------*/
+    .drop {
+      width: 100% !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      text-align: left;
+      display: block !important;
+      border-left: 0px !important;
+      border-right: 0px !important;
+    }
+    .drop-pad {
+      width: 100% !important;
+      padding: 30px 0 !important;  
+      text-align: left;
+      display: block !important;
+      border-left: 0px !important;
+      border-right: 0px !important;
+    }
+    .centerImageRating {
+      text-align: center;
+      width: 80px !important;
+      margin: 0 auto !important;
+    }
+    .mobIcon {
+      padding: 0 20px !important; 
+    }
+    .centerImageCTA {
+      text-align: center;
+      width: 180px !important;
+      margin: 0 auto !important;
+    }
+    .logo {
+      width: 127px !important;
+      height: auto !important;
+    }
+    .small {
+      width: 220px !important;
+    }
+    .small2 {
+      font-size: 27px !important;
+      line-height: 36px !important;
+      padding-top: 32px !important;
+    }
+    .whyShop {
+      font-size: 30px !important;
+      line-height: 42px !important;
+      padding: 32px 0 0 0 !important;
+    }
+    .bnText {
+      font-size: 17px !important;
+      line-height: 18px !important;
+    }
+    .bnLegal {
+      font-size: 19px !important;
+      line-height: 21px !important;
+      padding-right: 30px !important; 
+      padding-left: 30px !important;
+    }
+    .buttonbottom {
+      padding-bottom: 30px !important;
+    }
+    .buttonbottomleft {
+      padding-bottom: 34px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+    .btnLg {
+      padding-top: 25px !important;
+      padding-bottom: 25px !important;
+      font-size: 19px !important;
+      line-height: 21px !important;
+      width: 210px !important;
+    }
+    .mobcolumn {
+      width: 135px !important;
+    }
+    .width320 {
+      width: 320px !important;
+    }
+    .pattern {
+      width: 100% !important;
+    }
+    .headline {
+      font-size: 49px !important;
+      line-height: 51px !important;
+      padding-bottom: 15px !important;
+    }
+    .headline2 {
+      font-size: 26px !important;
+      line-height: 30px !important;
+      padding-bottom: 2px !important;
+    }
+    .headlineleft {
+      font-size: 44px !important;
+      line-height: 46px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+    .mobpad {
+      padding-top: 17px !important;
+      padding-bottom: 19px !important;
+      padding-right: 8px !important;
+    }
+    .mobileleftsmall {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+    }
+    .mobilecopy {
+      font-size: 21px !important;
+      line-height: 25px !important;
+      padding-bottom: 25px !important;
+      padding-left: 80px !important;
+      padding-right: 80px !important;
+    }
+    .mobilecopy2 {
+      font-size: 21px !important;
+      line-height: 25px !important;
+      padding-bottom: 25px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+    .mobilecopy3 {
+      font-size: 21px !important;
+      line-height: 25px !important;
+      padding-bottom: 25px !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+    .mobilecopyleft {
+      font-size: 19px !important;
+      line-height: 22px !important;
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+      padding-bottom: 25px !important;
+    }
+    .iconcontainer {
+      width: 320px !important;
+    }
+    .mobileleft {
+      padding-left: 30px !important;
+      padding-right: 30px !important;
+    }
+    .subhead {
+      font-size: 18px !important;
+      line-height: 22px !important;
+      padding-top: 8px !important;
+    }
+    .mobilecopysmall {
+      font-size: 19px !important;
+      line-height: 22px !important;
+      padding-left: 21px !important;
+      padding-right: 21px !important;
+    }
+    .secondaryheadline {
+      font-size: 27px !important;
+      line-height: 29px !important;
+      padding-bottom: 10px !important;
+    }
+    .mobiletop {
+      padding-top: 17px !important;
+    }
+    .bodyheadline {
+      font-size: 24px !important;
+      line-height: 26px !important;
+      padding-bottom: 10px !important;
+    }
+    /*---------WIDTH----------*/
+    .widthFull {
+      width: 100% !important;
+      height: auto !important;
+      max-height: none !important;
+    }
+    .icon {
+      width: auto !important;
+      height: 48px !important;
+    }
+    .mobileBorder {
+      border-bottom: solid 1px #e3e3e3 !important;
+    }
+    .stars {
+      width: 102px !important;
+      height: auto !important;
+    }
+    .mia {
+      font-size: 20px !important;
+      padding-bottom: 40px !important;
+      padding-top: 32px !important;
+    }
+    .bodyheadleftsmall {
+      padding-left: 21px !important;
+      padding-right: 21px !important;
+      font-size: 24px !important;
+      line-height: 24px !important;
+    }
+    .center {
+      text-align: center !important;
+      margin: 0 auto !important;
+    }
+    .starsbottom {
+      padding-bottom: 5px !important;
+    }
+    .learnmore {
+      font-size: 18px !important;
+      line-height: 20px !important;
+    }
+    .height0 {
+      height: 0 !important;
+    }
+    .halfwidth {
+      width: 50% !important;
+    }
+    .alignLeft {
+      padding-left: 30px !important;
+      text-align: left !important;
+    }
+    /*-------------FONTS-------------*/
+    .font30 {
+      font-size: 30px !important;
+      line-height: 35px !important;
+    }
+    .copy19 {
+      font-size: 19px !important;
+      line-height: 22px !important;
+      padding-top: 16px !important;
+    }
+    /*-------------PADDING-------------*/
+    .lmpadding {
+      padding-top: 24px !important;
+      padding-bottom: 74px !important;
+    }
+    .lmpadding2 {
+      padding-top: 24px !important;
+      padding-bottom: 30px !important;
+    }
+    .lmpadding3 {
+      padding-top: 24px !important;
+      padding-bottom: 18px !important;
+    }
+    .noPad, .nopad {
+      padding: 0 !important;
+    }
+    .btmPad0, .padBotm0 {
+      padding-bottom: 0px !important;
+    }
+    .btmPad30, .padBotm30 {
+      padding-bottom: 30px !important;
+    }
+    .btmPad40, .padBotm40 {
+      padding-bottom: 40px !important;
+    }
+    .btmPad87 {
+      padding-bottom: 87px !important;
+    }
+    .topPad0, .padTop0 {
+      padding-top: 0px !important; 
+    }
+    .topPad10, .padTop10 {
+      padding-top: 10px !important; 
+    }
+    .topPad15, .padTop15 {
+      padding-top: 15px !important; 
+    }
+    .topPad20, .padTop20 {
+      padding-top: 20px !important; 
+    }
+    .topPad32, .pad32 {
+      padding-top: 32px !important;
+    }
+    .topPad40, .padtop, .padTop40 {
+      padding-top: 40px !important;
+    }
+    .topPad87 {
+      padding-top: 87px !important;
+    }
+    .sidePad10, .mobpad10 {
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+    }
+    .sidePad21, .mobpad21 {
+      padding-right:21px !important;
+      padding-left:21px !important;
+    }
+    .rightPad38, .padRight38 {
+      padding-right: 38px !important;
+    }
+  }
+  @media only screen and (max-device-width: 385px), screen and (max-width: 385px) {
+    .mobIcon{
+      height: 160px !important;
+      width: auto !important;
+      padding: 0 10px;
+    }
+    .headline {
+      font-size: 40px !important;
+      line-height: 42px !important;
+      padding-bottom: 15px !important;
+    }
+  }
+</style>
+<!--[if mso]> <style type="text/css"> body, table, td, a {font-family: Arial, Helvetica, sans-serif !important;} .mobileleftsmall, .bodyheadleftsmall, .bodyheadline{font-weight:700 !important;} </style> <![endif]-->
+</head>
+<body style="margin:0; padding:0; border:none; -ms-text-size-adjust:none; -webkit-text-size-adjust:none;" bgcolor="#f7f7f8" border="0">
+
+<!--BEGIN AMPSCRIPT--> 
+<table cellpadding="0" bgcolor="#f7f7f8"  cellspacing="0" border="0" align="center" width="100%" style="table-layout:fixed; background-color: #f7f7f8;">
+  <tr>
+    <td>
+      <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div data-marker="wrapper" style="" class="stylingblock-content-wrapper"></div>
+
+</td></tr></table>
+    </td>
+  </tr>
+</table>
+<!--END AMPSCRIPT--> 
+ 
+<!--BEGIN PREVIEW TEXT AND OPEN TRACKING DIV-->
+<table cellpadding="0" cellspacing="0" border="0" align="center" style="table-layout:fixed;">
+  <tr>
+    <td>
+      <div style="display:none; font-size:0; line-height:0; max-height:0px; max-width:0px; opacity:0; overflow:hidden; mso-hide:all; font-family: sans-serif; color: #ffffff;">
+        <!--begin preview text-->Looking to upgrade your skin? Our newest innovation can help revolutionize your routine<!--end preview text-->
+        <!--begin opencounter--><img src="https://click.email.clarisonic.com/open.aspx?ffcb10-fe93177775670d7d73-fe2a1177766d007d771271-fe8413727c6d027a76-ff5f157973-fe2f15757c67047d721073-ffce15" width="1" height="1"><!--end opencounter-->
+      </div>
+    </td>
+  </tr>
+  <!--Begin ReturnPath Pixels-->
+  <tr>
+   <td>
+    <img src="https://pixel.app.returnpath.net/pixel.gif?r=9bdec38b92f77699dbaa4cba561dc86e3b29edb6" width="1" height="1" />
+    </td>
+  </tr>
+<!--End ReturnPath Pixels-->
+</table>
+<!--END PREVIEW TEXT AND OPEN TRACKING DIV-->
+
+<!--BEGIN LOGO CONTENT - This 100% table centers the logo and nav-->
+<table style="background-color: #ffffff;" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#ffffff" align="center" class="widthFull">
+      <!-- BEGIN LOGO and MAIN NAV TABLE -->
+      <table class="pattern" style="table-layout: fixed; width: 640px;" width="640" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center">
+            <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:18px 0 20px 0;" valign="top" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td valign="middle" align="center">
+            <a href="https://www.clarisonic.com/on/demandware.store/Sites-Clarisonic-US-Site/default/Default-Start?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=logo" alias="logo" target="_blank" style="color:#f68b1f;">
+              <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/8b906904-5cab-43ec-97ea-26c656d7c3a5.jpg" alt="Clarisonic" style="display:block;color:#f68b1f;" class="logo" width="150" height="24" border="0">
+            </a>
+          </td>
+          <td class="mobileHide" style="padding:0 0 0 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:24px;" valign="middle" align="left">
+            <a href="https://www.clarisonic.com/face-brushes?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=nav-face-brushes" alias="nav-face-brushes-desktop" target="_blank" style=" text-decoration:none; color:#4b4d50; white-space:nowrap;">
+              Face&nbsp;Brushes
+            </a>
+          </td>
+          <td class="mobileHide" style="padding:0 20px 0 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:24px;" valign="middle" align="left">
+            <a href="https://www.clarisonic.com/Brush-Heads?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=nav-brush-heads" alias="nav-brush-heads-desktop" target="_blank" style="text-decoration:none; color:#4b4d50; white-space:nowrap;">
+              Brush&nbsp;Heads
+            </a>
+          </td>
+          <td class="mobileHide" style="padding:0 0 0 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:24px;" valign="middle" align="left">
+            <a href="https://www.clarisonic.com/shop-all-products.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=nav-shop" alias="nav-shop-desktop" target="_blank" style="text-decoration:none; color:#4b4d50; white-space:nowrap;">
+              Shop&nbsp;by&nbsp;Skin&nbsp;Concern
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table></td></tr></table>
+          </td>
+        </tr>
+      </table>
+      <!--END LOGO and MAIN NAV TABLE --> 
+    </td>
+  </tr>
+</table>
+<!--END LOGO CONTENT - This 100% table centers the logo and nav-->
+      
+<!--BEGIN BODY CONTENT - This 100% table centers the body content-->
+<table style="background-color: #f7f7f8;" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#f7f7f8" width="640" align="center" class="widthFull"> 
+      <!-- BEGIN FIXED WIDTH WRAPPER TABLE -->
+      <table class="widthFull" width="640"  style="table-layout: fixed; width: 640px;" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top" style="padding:20px 0 0 0;">
+            <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN MODULE ONE -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:0;" valign="top" bgcolor="#ffffff" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td valign="top" align="center">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td valign="middle" align="center">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=hero-img" alias="hero-img" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/f912eccf-a7f5-4a27-9de1-28e20c447db9.jpg" alt="" style="display:block;" class="photo" width="640" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:38px 30px 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:16px; mso-line-height-rule:exactly; line-height:18px; color:#4b4d50;" valign="top" align="center">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=hero-txt1" alias="hero-txt1" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    GET CONNECTED
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="headline" style="padding:20px 10px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:50px; mso-line-height-rule:exactly; line-height:55px; color:#4b4d50;" valign="top" align="center">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=hero-txt2" alias="hero-txt2" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    A Smarter approach<br>
+                    to&nbsp;skincare
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopy sidePad21" style="padding:0 60px 30px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:22px; mso-line-height-rule:exactly; line-height:29px; color:#4b4d50;" valign="top" align="center">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=hero-txt3" alias="hero-txt3" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Optimize your daily cleanse by syncing Mia Smart with the Clarisonic app to personalize the ideal routine for all your skin’s needs.
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:0 0 45px 0;" class="buttonbottom" valign="top" align="center">
+                  <table cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="button">
+                        <div class="button">
+                          <!--[if mso]>                           <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=hero-cta" alias="hero-cta" style="height:46px;v-text-anchor:middle;width:176px;" arcsize="9%" strokecolor="#ffffff" fillcolor="#252628">                           <w:anchorlock/>                           <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif; font-size:16px;font-weight:normal;">Shop Now</center>                           </v:roundrect>                           <![endif]-->
+                          <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=hero-cta" alias="hero-cta" style="background-color:#252628;border:1px solid #252628;border-radius:4px;color:#ffffff;display:inline-block;font-family:'Lato',Arial,Helvetica,sans-serif; font-size:16px;font-weight:normal;line-height:42px;text-align:center;text-decoration:none;width:176px;-webkit-text-size-adjust:none;mso-hide:all;" class="button buttonOrange">
+                            Shop Now
+                          </a>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- END MODULE ONE --></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN GREY BAR -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="background-color:#f7f7f8 ; min-height:20px; min-width:100%; line-height:20px;" width="100%" height="20" bgcolor="#f7f7f8 "></td>
+  </tr>
+</table>
+<!-- END GREY BAR--> </td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" border="0">
+   <tr>
+     <td class="secondaryheadline" style="padding:15px 0 15px 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:40px; mso-line-height-rule:exactly; line-height:45px;  color:#4b4d50; text-align:center;" width="100%" valign="top" bgcolor="#ffffff">
+       <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt1" alias="body-txt1" style="color:#4b4d50; text-decoration:none;">
+         How to use the Clarisonic <br>app with Mia Smart
+       </a>
+     </td>
+   </tr>        
+   <tr>
+     <td style="padding:0 0 0 0; border-bottom: 1px solid #4b4d50; text-align:center;" width="100%" valign="top" bgcolor="#ffffff">
+     </td>
+   </tr>
+</table></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN MODULE NINE -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:0 0 0 0;" valign="top" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td class="drop" width="310" valign="top" bgcolor="#ffffff" align="left">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td>
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-img1" alias="body-img1" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/5d45af20-6766-4faf-a162-c14872070224.jpg" alt="" style="display:block;" class="photo" width="310" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobileleftsmall alignLeft" style="padding:30px 0 3px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold;font-size:26px; mso-line-height-rule:exactly; line-height:31px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt2" alias="body-txt2" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Step 1:
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopysmall alignLeft btmPad40" style="padding:0 30px 30px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:23px; mso-line-height-rule:exactly; line-height:28px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt3" alias="body-txt3" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Select a <br class="mobileHide"><span style="white-space:nowrap;">pre-programmed</span> <br class="mobileHide">routine on the app.
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="mobileHide" width="20" bgcolor="#f7f7f8">&nbsp;</td>
+          <td class="drop" width="310" valign="top" bgcolor="#ffffff" align="right">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td>
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-img2" alias="body-img2" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/fbb8b639-2599-4c06-9b4d-64d96dbd49ab.jpg" alt="" style="display:block;" class="photo" width="310" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobileleftsmall alignLeft " style="padding:30px 0 3px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold;font-size:26px; mso-line-height-rule:exactly; line-height:31px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt-three" alias="body-txt-three" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Step 2:
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopysmall alignLeft btmPad40" style="padding:0 30px 30px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:23px; mso-line-height-rule:exactly; line-height:28px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt4" alias="body-txt4" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Personalize based on your preference.
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- END MODULE NINE-->
+<!-- BEGIN GREY BAR -->
+<table class="mobileHide" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="background-color:#f7f7f8 ; min-height:20px; min-width:100%; line-height:20px;" width="100%" height="20" bgcolor="#f7f7f8 "></td>
+  </tr>
+</table>
+<!-- END GREY BAR--></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN MODULE NINE -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:0 0 0 0;" valign="top" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td class="drop" width="310" valign="top" bgcolor="#ffffff" align="left">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td>
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-img3" alias="body-img3" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/48d884a1-cbef-4bc4-b4dc-918413f5cedb.jpg" alt="" style="display:block;" class="photo" width="310" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobileleftsmall alignLeft" style="padding:30px 0 3px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold;font-size:26px; mso-line-height-rule:exactly; line-height:31px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt5" alias="body-txt5" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Step 3:
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopysmall alignLeft btmPad40" style="padding:0 30px 30px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:23px; mso-line-height-rule:exactly; line-height:28px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt6" alias="body-txt6" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Select time and intensity based on
+<br class="mobileHide">your preference.
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="mobileHide" width="20" bgcolor="#f7f7f8">&nbsp;</td>
+          <td class="drop" width="310" valign="top" bgcolor="#ffffff" align="right">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td>
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-img4" alias="body-img4" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/0c43df1d-1a3b-445a-95e0-6f312212f670.jpg" alt="" style="display:block;" class="photo" width="310" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobileleftsmall alignLeft" style="padding:30px 0 3px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold;font-size:26px; mso-line-height-rule:exactly; line-height:31px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt7" alias="body-txt7" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Step 4:
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopysmall alignLeft btmPad40" style="padding:0 30px 30px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:23px; mso-line-height-rule:exactly; line-height:28px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt8" alias="body-txt8" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Sync Routine with Mia Smart. Your routine is synced if Mia Smart vibrates once.
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- END MODULE NINE-->
+<!-- BEGIN GREY BAR -->
+<table class="mobileHide" width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="background-color:#f7f7f8 ; min-height:20px; min-width:100%; line-height:20px;" width="100%" height="20" bgcolor="#f7f7f8 "></td>
+  </tr>
+</table>
+<!-- END GREY BAR--></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN MODULE NINE -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:0 0 0 0;" valign="top" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td class="drop" width="310" valign="top" bgcolor="#ffffff" align="left">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td>
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-img5" alias="body-img5" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/65c96ca8-044b-40cf-9faf-a00e6a48b9af.jpg" alt="" style="display:block;" class="photo" width="310" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobileleftsmall alignLeft" style="padding:30px 0 3px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold;font-size:26px; mso-line-height-rule:exactly; line-height:31px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt9" alias="body-txt9" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Step 5:
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopysmall alignLeft btmPad40" style="padding:0 30px 30px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:23px; mso-line-height-rule:exactly; line-height:28px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt10" alias="body-txt10" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Press Power Button <br class="mobileHide">3 times to select <br class="mobileHide">Smart Mode.
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td class="mobileHide" width="20" bgcolor="#f7f7f8">&nbsp;</td>
+          <td class="drop" width="310" valign="top" bgcolor="#ffffff" align="right">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td>
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-img6" alias="body-img6" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/acf7a522-4f59-4900-98bd-9dda9521c041.jpg" alt="" style="display:block;" class="photo" width="310" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobileleftsmall alignLeft" style="padding:30px 0 3px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold;font-size:26px; mso-line-height-rule:exactly; line-height:31px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt11" alias="body-txt11" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Step 6:
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopysmall alignLeft btmPad40" style="padding:0 30px 30px 40px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400; font-size:23px; mso-line-height-rule:exactly; line-height:28px; color:#4b4d50;" valign="top" align="left">
+                  <a href="https://www.clarisonic.com/face-brushes/mia-smart-3-in-1-connected-beauty-device/CL407.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=body-txt12" alias="body-txt12" style="color:#4b4d50;text-decoration:none;" target="_blank">
+                    Enjoy your custom cleansing routine.
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- END MODULE NINE-->
+<!-- BEGIN GREY BAR -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="background-color:#f7f7f8 ; min-height:20px; min-width:100%; line-height:20px;" width="100%" height="20" bgcolor="#f7f7f8 "></td>
+  </tr>
+</table>
+<!-- END GREY BAR--></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN MODULE SEVEN -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td class="mobiletop" style="padding:20px 0;" valign="top" bgcolor="#ffffff" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td valign="top" align="center">
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td class="mobilecopy mobpad21" style="padding:0 30px 5px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold; font-size:23px; mso-line-height-rule:exactly; line-height:29px; color:#000000;" valign="top" align="center">
+                  <a href="https://display.ugc.bazaarvoice.com/static/Clarisonic/main_site/en_US/container.htm?bvaction=rr_submit_review&bvproductId=CL407&bvcampaignId=Sampling&bvinjecteddata=%7B%22IncentivizedReview%22%3A%22True%22%7D" alias="body-txt13" style="color:#000000;text-decoration:none;" target="_blank">
+                    Love your new Mia&nbsp;Smart?
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="btmPad30" style="mso-line-height-rule:exactly;min-height:30px; min-width:100%; line-height:30px;" valign="middle" align="center">
+                  <a href="https://display.ugc.bazaarvoice.com/static/Clarisonic/main_site/en_US/container.htm?bvaction=rr_submit_review&bvproductId=CL407&bvcampaignId=Sampling&bvinjecteddata=%7B%22IncentivizedReview%22%3A%22True%22%7D" alias="body-stars" target="_blank">
+                    <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/9351be13-97bb-464b-b83d-63d59cb3c43c.jpg" alt="" style="display:block;" width="181" border="0">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td class="mobilecopy" style="padding:5px 30px 4px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:bold; font-size:16px; mso-line-height-rule:exactly; line-height:20px; color:#f68b1f;" valign="top" align="center">
+                  <a href="https://display.ugc.bazaarvoice.com/static/Clarisonic/main_site/en_US/container.htm?bvaction=rr_submit_review&bvproductId=CL407&bvcampaignId=Sampling&bvinjecteddata=%7B%22IncentivizedReview%22%3A%22True%22%7D" alias="body-txt14" style="color:#f68b1f;text-decoration:none;" target="_blank">
+                    Leave a review &rsaquo;
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+ <tr>
+     <td style="background-color:#f7f7f8; min-height:20px; min-width:100%; line-height:20px;" width="100%" height="20" bgcolor="#f7f7f8"></td>
+    </tr>
+</table>
+<!-- END MODULE SEVEN --></td></tr></table>
+          </td>
+        </tr>
+      </table>
+      <!-- END FIXED WIDTH WRAPPER TABLE --> 
+    </td>
+  </tr>
+</table>   
+<!--END BODY CONTENT - This 100% table centers the body content-->
+              
+<!--BEGIN WHY SHOP CONTENT - This 100% table centers the why shop content-->
+<table style="background-color: #ffffff;" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#ffffff" width="640" align="center" class="widthFull">
+      <!-- BEGIN FIXED WIDTH CENTERED FOOTER TABLE -->
+      <table class="widthFull" style="background-color:#ffffff; table-layout: fixed; width: 640px;" width="640" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center">
+            <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><!-- BEGIN WHY SHOP TABLE -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td style="padding:0 0 0 0;" valign="top" align="center">
+      <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <td style="padding:0 0 0 0;" valign="top" bgcolor="#ffffff" align="center"> 
+            <!--[if !mso]><!-->
+            <div class="mobileShow" style="display:none; margin:0; padding:0; width:0px; max-height:0px; overflow:hidden; font-size:0; line-height:0; mso-hide:all;">
+              <table class="widthFull" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="border-top: solid 1px #e8e8e8;font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:700;font-size:19px; mso-line-height-rule:exactly; line-height:68px; color:#4b4d50;" valign="top" align="center">
+                    <a href="https://www.clarisonic.com/face-brushes?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=nav-face-brushes" alias="nav-face-brushes-mobile" target="_blank" style="color:#4b4d50; text-decoration:none; display:block;">
+                      Face&nbsp;Brushes
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-top: solid 1px #e8e8e8; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:700;font-size:19px; mso-line-height-rule:exactly; line-height:68px; color:#4b4d50;" valign="top" align="center">
+                    <a href="https://www.clarisonic.com/Brush-Heads?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=nav-brush-heads" alias="nav-brush-heads-mobile" target="_blank" style="color:#4b4d50; text-decoration:none; display:block;">
+                      Brush&nbsp;Heads
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-top: solid 1px #e8e8e8; border-bottom: solid 1px #e8e8e8; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:700;font-size:20px; mso-line-height-rule:exactly; line-height:68px; color:#4b4d50;" valign="top" align="center">
+                    <a href="https://www.clarisonic.com/shop-all-products.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=nav-shop" alias="nav-shop-mobile" target="_blank" style="color:#4b4d50; text-decoration:none; display:block;">
+                      Shop&nbsp;by&nbsp;Skin&nbsp;Concern
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!--<![endif]-->
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr>
+                <td valign="top" align="center">
+                  <table class="small" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="whyShop" style="padding:20px 20px 0 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300;font-size:34px; mso-line-height-rule:exactly; line-height:36px; color:#4b4d50;" valign="top" align="center">
+                        <a href="https://www.clarisonic.com/on/demandware.store/Sites-Clarisonic-US-Site/default/Default-Start?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-why-shop" alias="bn-why-shop" target="_blank" style="color:#4b4d50; text-decoration:none;">
+                          Why shop Clarisonic.com?
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:16px 0 38px;" class="pad32" align="center">
+                  <table class="width320" width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tr>
+                      <td class="stack mobpad10">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="halfwidth">
+                              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                  <td align="center">
+                                    <a href="https://www.clarisonic.com/shipping-policy/customer-service-shipping-information.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-shipping" alias="bn-shipping-icon" target="_blank">
+                                      <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/9bd2231d-a1fb-4ab5-9426-0a0422c63c2c.png" alt="" style="display:block;" width="59" height="54" border="0">
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300;font-size:16px; mso-line-height-rule:exactly; line-height:20px; color:#4b4d50; text-align:center;" class="mobpad10">
+                                    <a href="https://www.clarisonic.com/shipping-policy/customer-service-shipping-information.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-shipping" alias="bn-shipping-text" target="_blank" style="text-decoration:none; color:#4b4d50;">
+                                      Free standard <br>shipping and returns
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding-top:23px;font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400;font-size:16px;color:#f68b1f; text-align:center;">
+                                    <a href="https://www.clarisonic.com/shipping-policy/customer-service-shipping-information.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-shipping" alias="bn-shipping-learn-more" target="_blank" style="text-decoration:none; color:#f68b1f;">
+                                      Learn More &rsaquo;
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td class="halfwidth">
+                              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                  <td align="center">
+                                    <a href="https://www.clarisonic.com/guarantee/customer-service-guarantee-n-warranty.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-90day" alias="bn-90day-icon" target="_blank">
+                                      <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/c95bc3a2-941b-495b-be3e-9f85b931544c.png" alt="" style="display:block;" width="59" height="54" border="0">
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300;font-size:16px; mso-line-height-rule:exactly; line-height:20px; color:#4b4d50; text-align:center;">
+                                    <a href="https://www.clarisonic.com/guarantee/customer-service-guarantee-n-warranty.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-90day" alias="bn-90day-text" target="_blank" style="text-decoration:none; color:#4b4d50;">
+                                      90-day 100% <span style="white-space:nowrap;">money-back</span> <br>device guarantee
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding-top:23px;font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400;font-size:16px;color:#f68b1f; text-align:center;">
+                                    <a href="https://www.clarisonic.com/guarantee/customer-service-guarantee-n-warranty.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-90day" alias="bn-90day-learn-more" target="_blank" style="text-decoration:none; color:#f68b1f;">
+                                      Learn More &rsaquo;
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                      <td class="stack pad32 mobpad10">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tr>
+                            <td class="halfwidth">
+                              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                  <td align="center">
+                                    <a href="https://www.clarisonic.com/personalized-engraving?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-engrave" alias="bn-engrave-icon" target="_blank">
+                                      <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/f22ddd6b-134c-4f33-adc7-c674c80bab3b.png" alt="" style="display:block;" width="59" height="54" border="0">
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300;font-size:16px; mso-line-height-rule:exactly; line-height:20px; color:#4b4d50; text-align:center;">
+                                    <a href="https://www.clarisonic.com/personalized-engraving?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-engrave" alias="bn-engrave-text" target="_blank" style="text-decoration:none; color:#4b4d50;">
+                                      Complimentary <br>engraving
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding-top:23px;font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400;font-size:16px;color:#f68b1f; text-align:center;">
+                                    <a href="https://www.clarisonic.com/personalized-engraving?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-engrave" alias="bn-engrave-learn-more" target="_blank" style="text-decoration:none; color:#f68b1f;">
+                                      Learn More &rsaquo;
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                            <td class="halfwidth">
+                              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+                                  <td align="center">
+                                    <a href="https://www.clarisonic.com/refer?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-refer" alias="bn-refer-icon" target="_blank">
+                                      <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/3f7882e9-7c92-4285-9817-497c4e136a89.png" alt="" style="display:block;" width="59" height="54" border="0">
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300;font-size:16px; mso-line-height-rule:exactly; line-height:20px; color:#4b4d50; text-align:center;">
+                                    <a href="https://www.clarisonic.com/refer?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-refer" alias="bn-refer-text" target="_blank" style="text-decoration:none; color:#4b4d50;">
+                                      Clarisonic <br>referral program
+                                    </a>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td style="padding-top:23px;font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400;font-size:16px;color:#f68b1f; text-align:center;">
+                                    <a href="https://www.clarisonic.com/refer?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=bn-refer" alias="bn-refer-learn-more" target="_blank" style="text-decoration:none; color:#f68b1f;">
+                                      Learn More &rsaquo;
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- END WHY SHOP TABLE --></td></tr></table>
+          </td>
+        </tr>
+      </table>
+      <!-- END FIXED WIDTH CENTERED FOOTER TABLE -->
+    </td>
+  </tr>
+</table>
+<!--END WHY SHOP CONTENT - This 100% table centers the why shop content-->
+                  
+<!--BEGIN UNSUB CONTENT - This 100% table centers the why shop content-->
+<table style="background-color: #ffffff;border-top: solid 1px #e8e8e8; border-bottom: solid 1px #e8e8e8;" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#ffffff" width="640" align="center" class="widthFull" style="border-top: solid 1px #e8e8e8; border-bottom: solid 1px #e8e8e8;">
+      <!-- BEGIN FIXED WIDTH CENTERED FOOTER TABLE -->
+      <table class="widthFull" style="background-color:#ffffff; table-layout: fixed; width: 640px;" width="640" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="mobileHide" align="center" valign="top" style="padding:12px 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:17px; mso-line-height-rule:exactly; line-height:19px; color:#4b4d50;">
+            <a href="http://cloud.email.clarisonic.com/unsubscribe?qs=19da5e5f2840d1bbd61442f1d009c658cf1340f200df416d87bca60d98436106254b4c3057d99247" alias="lg-unsubscribe-desktop" target="_blank" style="color:#4b4d50; text-decoration:none;">
+              Unsubscribe
+            </a>
+            &nbsp;&nbsp;|&nbsp;&nbsp; 
+            <a href="https://view.email.clarisonic.com/?qs=271bff78385ef38ad8d9bf30f06ffd5893d12e9fdb3bc6bb1b01829a90101b581d8da7a51583d98d1377c7e57dc4d08dc9d871e76f9714e726b45e270f5c27497bcee85a68aad461" alias="lg-view-in-browser-desktop" target="_blank" style="color:#4b4d50; text-decoration:none;">
+              View In Browser
+            </a>
+            
+          </td>
+        </tr>
+      </table>
+      <!-- END FIXED WIDTH CENTERED FOOTER TABLE -->
+    </td>
+  </tr>
+</table>
+<!--END UNSUB CONTENT - This 100% table centers the why shop content--> 
+                 
+<!--BEGIN SOCIAL CONTENT - This 100% table centers the why social content-->
+<table style="background-color: #ffffff;" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td bgcolor="#ffffff" width="640" align="center" class="widthFull">     
+<!-- BEGIN FIXED WIDTH CENTERED FOOTER TABLE -->
+<table class="widthFull" style="background-color:#ffffff; table-layout: fixed; width: 640px;" width="640" align="center" border="0" cellspacing="0" cellpadding="0">    
+  <tr>
+    <td>
+      <!-- BEGIN FOOTER LINKS TABLE -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top" style="padding:0 0 0 0; ">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" valign="top" >
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="center" valign="top"> 
+                        <!--[if !mso]><!-->
+                        <div class="mobileShow" style="display:none; margin:0; padding:0; width:0px; max-height:0px; overflow:hidden; font-size:0; line-height:0; mso-hide:all;">
+                          <table class="widthFull" cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                              <td align="center" valign="top" style="padding:44px 0 44px 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:22px; color:#4b4d50;">
+                                <a href="http://cloud.email.clarisonic.com/unsubscribe?qs=19da5e5f2840d1bbd61442f1d009c658cf1340f200df416d87bca60d98436106254b4c3057d99247" alias="lg-unsubscribe-mobile" target="_blank" style="color:#4b4d50; text-decoration:underline;">
+                                  Unsubscribe
+                                </a>
+                                </td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="top" style="padding:0 0 44px 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:22px; color:#4b4d50;">
+                                <a href="https://view.email.clarisonic.com/?qs=271bff78385ef38ad8d9bf30f06ffd5893d12e9fdb3bc6bb1b01829a90101b581d8da7a51583d98d1377c7e57dc4d08dc9d871e76f9714e726b45e270f5c27497bcee85a68aad461" alias="lg-view-in-browser-mobile" target="_blank" style="color:#4b4d50; text-decoration:underline;">
+                                  View In Browser
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="top" style="padding:0 0 44px 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:22px; color:#4b4d50;">
+                                
+                                <a href="https://www.clarisonic.com/privacy-policy/customer-service-privacy-n-security.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=lg-privacy" alias="lg-privacy-mobile" target="_blank" style="color:#4b4d50; text-decoration:underline;">
+                                  Privacy Policy
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="top" style="padding:0 0 44px 0; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:300; font-size:19px; mso-line-height-rule:exactly; line-height:22px; color:#4b4d50;">
+                                <a href="https://www.clarisonic.com/customer-support/clarisonic-contact-us-form?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=lg-support" alias="lg-support-mobile" target="_blank" style="color:#4b4d50; text-decoration:underline;">
+                                  Customer Support
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!--<![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END FOOTER LINKS TABLE --> 
+      <!-- BEGIN SOCIAL ICONS TABLE -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" valign="top" style="padding:0 0 0 0;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="mobileBorder" align="center" valign="top" style="padding:15px 0 15px 0;">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="center" valign="top" class="mobpad">
+                        <table border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                            <td align="left" valign="top" style="padding:0 48px 0 0;" class="padRight38">
+                              <a  href="https://www.facebook.com/clarisonicUS" alias="facebook" target="_blank" style="text-decoration: none;">
+                                <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/efaeabf6-a598-4c62-a77e-af4462cb5724.jpg" alt="Facebook" width="20" height="25" border="0" style="display: block;" class="social">
+                              </a>
+                            </td>
+                            <td align="left" valign="top" style="padding:0 48px 0 0;" class="padRight38">
+                              <a  href="https://twitter.com/clarisonic" alias="twitter" target="_blank" style="text-decoration: none;">
+                                <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/ddbe272b-336d-4f16-8a2e-a348dd3a50e4.jpg" alt="Twitter" width="28" height="25" border="0" style="display: block;" class="social">
+                              </a>
+                            </td>
+                            <td align="left" valign="top" style="padding:0 48px 0 0;" class="padRight38">
+                              <a href="https://www.youtube.com/user/Clarisonic" alias="youtube" target="_blank" style="text-decoration: none;">
+                                <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/41f7f956-5e08-4ffb-87ef-1bd2044ccf69.jpg" alt="YouTube" width="25" height="25" border="0" style="display: block;" class="social">
+                              </a>
+                            </td>
+                            <td align="left" valign="top" style="padding:0 45px 0 0;" class="padRight38">
+                              <a href="https://www.pinterest.com/clarisonic/" alias="pinterest" target="_blank" style="text-decoration: none;">
+                                <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/7f8184c1-6e76-4729-a991-d1ffc20d58bf.jpg" alt="Pinterest" width="21" height="25" border="0" style="display: block;" class="social">
+                              </a>
+                            </td>
+                            <td align="left" valign="top" style="padding:0 0 0 0;">
+                              <a href="https://www.instagram.com/clarisonic/" alias="instagram" target="_blank" style="text-decoration: none;">
+                                <img src="http://image.email.clarisonic.com/lib/fe8413727c6d027a76/m/1/2f7d0ee5-dc3f-43e6-85ce-bf812b782a2c.jpg" alt="Instagram" width="25" height="25" border="0" style="display: block;" class="social">
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- END SOCIAL ICONS TABLE --> 
+    </td>
+  </tr>
+</table>
+<!--END FIXED WIDTH CENTERED FOOTER TABLE --> 
+</td></tr></table>
+<!--END SOCIAL CONTENT - This 100% table centers the social content-->
+    
+ <!--BEGIN LEGAL CONTENT - This 100% table centers the legal content-->
+<table style="background-color: #f7f7f8;" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td bgcolor="#f7f7f8" width="640" align="center" class="widthFull"> 
+<!-- BEGIN FIXED WIDTH WRAPPER TABLE -->
+<table class="widthFull"  style="table-layout: fixed; width: 640px;" width="640" align="center" border="0" cellspacing="0" cellpadding="0">          
+<!-- BEGIN LEGAL -->
+<!-- BEGIN DISCLAIMER LINKS -->
+  <tr>
+    <td align="center" valign="top" class="mobileHide" style="padding:30px 20px 0 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:18px; color:#4b4d50;">
+      <a href="https://www.clarisonic.com/privacy-policy/customer-service-privacy-n-security.html?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=lg-privacy" alias="lg-privacy-desktop" target="_blank" style="color:#4b4d50; text-decoration:underline;">
+        <strong>Privacy Policy</strong>
+      </a>
+      &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp; 
+      <a href="https://www.clarisonic.com/customer-support/clarisonic-contact-us-form?utm_medium=email_brand&utm_source=sfmc&utm_campaign=AAR1_CLA_USA_Launch-OWN_15_2018&utm_content=lg-support" alias="lg-support-desktop" target="_blank" style="color:#4b4d50; text-decoration:underline;">
+        <strong>Customer Support</strong>
+      </a>
+    </td>
+  </tr>
+  <!-- ENDDISCLAIMER LINKS -->
+  
+  <!-- BEGIN PHYSICAL ADDRESS -->
+  <tr>
+    <td class="bnLegal" align="center" valign="top" style="padding:30px 20px 30px 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-size:16px; mso-line-height-rule:exactly; line-height:18px; color:#4b4d50; font-weight:300;">
+      Clarisonic, <a style="color:#4b4d50; text-decoration: none; pointer-events: none;">17425 Northeast Union Hill Rd., Redmond, WA 98052,&nbsp;USA</a>
+    </td>
+  </tr>
+  <!-- END PHYSICAL ADDRESS -->
+  
+  <!-- BEGIN DISCLAIMER LANGUAGE -->
+  <tr>
+    <td>
+      
+    </td>
+  </tr>
+  <tr>
+    <td class="bnLegal" align="center" valign="top" style="padding:0 20px 40px 20px; font-family:'Lato',Arial,Helvetica,sans-serif; font-weight:400;font-size:16px; mso-line-height-rule:exactly; line-height:18px; color:#4b4d50;">
+      <strong>&copy;2019 L'Or&eacute;al,&nbsp;Inc</strong>
+    </td>
+  </tr>
+  <!-- END DISCLAIMER LANGUAGE -->
+  <!-- END LEGAL -->
+</table>
+<!-- END FIXED WIDTH WRAPPER TABLE -->  
+</td></tr></table>
+<!--END LEGAL CONTENT - This 100% table centers the legal content-->
+</body>
+</html>
